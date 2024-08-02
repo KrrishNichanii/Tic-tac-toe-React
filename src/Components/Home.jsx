@@ -53,7 +53,7 @@ function Home() {
   return (
     <div className='h-screen w-full bg-[#B41F20] flex  items-center'>
 
-        <div className="relative  w-[70%] h-[80%] mx-auto p-[2rem] flex flex-col items-center justify-between">
+        <div className="relative  w-[60%] h-[70%] mx-auto p-[2rem] flex flex-col items-center justify-between">
             <div className="shadow-lg w-[50%] bg-[#DD500D] h-[3rem] p-4 rounded-[2rem] flex justify-around items-center">
                 {
                     currPlayer == 0 ? (

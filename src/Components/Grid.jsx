@@ -67,7 +67,7 @@ function Grid({turn , setTurn , declareWinner ,isPlayable ,setIsPlayable ,board 
     }
 
   return (
-    <div className="shadow-lg w-[40rem] h-[40rem] bg-[#D8AA89] rounded-[4rem] grid grid-cols-3 grid-rows-3 p-[2rem] gap-[2rem]">
+    <div className="shadow-lg w-[30rem] h-[30rem] bg-[#D8AA89] rounded-[4rem] grid grid-cols-3 grid-rows-3 p-[2rem] gap-[2rem]">
       {
          
             board.map((row, rowIndex) =>
